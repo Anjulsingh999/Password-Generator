@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="main-container">
+
+            <div class="heading">
+                Password Generator
+            </div>
+
+            <div class="display">
+                <div class="passwords">h675hiu</div>
+                <div class="copy-btn">
+                    <img src="file-copy-line.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="navigation">
+                
+                <div class="nav-heading">
+                    <div class="password-len">
+                        Password Length
+                    </div>
+                    <div class="Password-len-count">
+                        13
+                    </div>
+                </div>
+
+                <div class="slide-container">
+                    <input type="range" min="1" max="20" value="50" class="slider" id="myRange">
+                </div>
+
+                <div class="nav-control">
+                    <div class="control-1 control">
+                        <input type="checkbox" id="checkbx-1">
+                        <label for="checkbx-1" class="label-text">Include Uppercase Letters</label>
+                    </div>
+                    <div class="control-2 control">
+                        <input type="checkbox" id="checkbx-2">
+                        <label for="checkbx-2" class="label-text">Include Lowercase Letters</label>
+                    </div>
+                    <div class="control-3 control">
+                        <input type="checkbox" id="checkbx-3">
+                        <label for="checkbx-3" class="label-text">Include Numbers</label>
+                    </div>
+                    <div class="control-4 control">
+                        <input type="checkbox" id="checkbx-4">
+                        <label for="checkbx-4" class="label-text">Include Symbols</label>
+                    </div>
+                </div>
+
+                <div class="strength-box">
+                    <div class="strength-heading">
+                        Strength
+                    </div>
+                    <div class="strength-level">
+                        weak
+                    </div>
+                </div>
+
+                <div class="genertor-btn">
+                    <button>Generate Password</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
